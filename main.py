@@ -4,7 +4,7 @@ from urllib.parse import urlparse, parse_qs
 
 # Для начала определим настройки запуска
 hostName = "https://github.com/val-kv/django_hw_1" # Адрес для доступа по сети
-serverPort = 8080 # Порт для доступа по сети
+serverPort = 443 # Порт для доступа по сети
 
 class MyServer(BaseHTTPRequestHandler):
 
